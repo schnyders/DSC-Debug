@@ -1,0 +1,23 @@
+{
+  "ResolutionPrecedence": [
+    "AllNodes\\$($Node.Name)",
+    "Role\\<%= $CurrentNode.PSObject.Properties.where{$_.Name -in $Node.Packages}.Value %>"
+  ],
+  "default_lookup_options": "MostSpecific",
+  "lookup_options": {
+    "Configurations": {
+      "merge_basetype_array": "Unique"
+    },
+    "FirewallRules": {
+      "merge_hash": "deep"
+    },
+    "FirewallRules\\Items": {
+      "merge_hash_array": "DeepTuple",
+      "merge_options": {
+        "Tuple_Keys": [
+          "Name"
+        ]
+      }
+    }
+  }
+}
