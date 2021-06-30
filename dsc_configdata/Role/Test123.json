@@ -1,0 +1,25 @@
+{
+  "Configurations": [
+    "FirewallRules"
+  ],
+  "FirewallRules": {
+    "Items": [
+      {
+        "Action": 2,
+        "Description": "Test123",
+        "Direction": 1,
+        "DisplayName": "Test123",
+        "RemotePort": "Any",
+        "Name": "Test123",
+        "LocalAddress": "Any",
+        "LocalPort": "123",
+        "Service": "Any",
+        "Protocol": "TCP",
+        "Profile": 0,
+        "Program": "Any",
+        "RemoteAddress": "Any",
+        "Enabled": 1
+      }
+    ]
+  }
+}
