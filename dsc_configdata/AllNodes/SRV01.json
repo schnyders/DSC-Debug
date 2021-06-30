@@ -1,0 +1,7 @@
+{
+  "NodeName": "SRV01",
+  "Packages": [
+    "Test123",
+    "Test456"
+  ]
+}
